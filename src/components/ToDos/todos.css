@@ -1,0 +1,32 @@
+.todos button { 
+    border:none;
+    width:40px;
+    height:40px;
+    border-radius:50% !important;
+}
+.todo-control button {
+    margin:0 15px;
+    color:#fff;
+}
+.addNew {
+    position:absolute;
+    right:15px;
+    top:50%;
+    transform:translateY(-50%)
+}
+.todo-item {
+    padding:5px;
+    border-bottom:4px solid #fff;
+    background-color:aliceblue ;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    text-align: left !important;
+}
+
+.done {
+   background-color:#aae4aa;
+}
+.mutedText {
+    text-decoration: line-through;
+}
